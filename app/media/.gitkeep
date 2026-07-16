@@ -1,3 +1,0 @@
-# Uploaded episode videos (kept locally under app/media)
-/app/media/**
-!/app/media/.gitkeep
