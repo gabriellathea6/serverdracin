@@ -56,6 +56,7 @@ create trigger update_drama_modtime
     before update on drama
     for each row
     execute function update_modified_column();
+    
 
 -- 4. Episode Table
 create table if not exists episode (
